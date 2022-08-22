@@ -1,0 +1,25 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.playground{
+    border: none;
+}
+
+.playground.img{
+    width: 80px;
+    height: 80px;
+}
